@@ -7,7 +7,7 @@
 * 对于一个心电信号，调用generate_emd_segments.m提取出emd片段。然后调用calc_entropy.m计算采样熵，调用calc_mean_lfhf计算lf/hf。
 
 
-##Files
+## Files
 * scripts:
   * **main.m**: 主函数。load数据后，对每一个导联分别计算，结果保存在一128*2的数组中。
   * **visualize**: 可视化，显示结果放在fig文件夹中。
